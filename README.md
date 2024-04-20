@@ -1,4 +1,4 @@
-# Módulo 3 - Introdução ao Desenvolvimento Web
+# Módulo 2 - Introdução ao Desenvolvimento Web
 
 Neste módulo iremos dar nossos primeiros passos no mundo do desenvolvimento de páginas Web. Nosso roadmap para esse módulo será:
 
