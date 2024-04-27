@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+body{
+    background: linear-gradient(#08afff,#08e8ff,#0ffff8,#46fff8,#f7fcf3) ;
+}
+
+
+h1{
+    color: #ffc845;
+    text-align:center;
+ 
+    font-family: "Jersey 15", sans-serif;
+    font-size: 70px;
+}
+img{
+    width: 800px;
+    height: 500px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 10%;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}   
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+    background: linear-gradient(#ff9422,#ffc845,#fff776);
+
+    transition: 0.10s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(#762638, #9a3646, #d4535d) ;
+}
+
+button a {
+    color: #0e633e;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: #ff8686 ;
+}
+
