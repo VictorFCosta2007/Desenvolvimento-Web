@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Mitr:wght@200;300;400;500;600;700&family=Press+Start+2P&family=Rubik+Moonrocks&display=swap');
+
+body{
+    background: linear-gradient(#f8f8f8 , #e2e9ef,#f9f9f9, #000);
+
+    
+}
+
+h1 {
+    text-align: center;
+
+    color: #aabed3;
+
+    font-family: Silkscreen;
+}
+
+
+#imagem1{
+    border-radius: 10%;
+
+    width: 600px;
+    height: 350px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gifs{
+    display: flex;
+
+    position: relative;
+    
+    height: auto;
+}
+
+.gif1{
+    width: 200px;
+    left: 0;
+
+    margin-right: auto ;
+}
+
+.gif2{
+    height: 200px;
+    width: 200px;
+    right: 0;
+
+    margin-left: auto;
+}
+
+h2{
+    text-align: center;
+    color: #aabed3;
+
+    font-family: Silkscreen;
+}
+
+h3{
+    text-align: justify;
+
+    font-family: "Mitr", sans-serif;
+    font-size: 25px;
+
+    color: #bac2c6;
+}
+
+p{
+    text-align: justify;
+    font-size: 16px;
+}
+
+button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+    width: 80px;
+    height: 50px;
+
+    border-radius: 10%;
+
+    cursor: pointer;
+    background: linear-gradient(#343a45, #000 ); 
+}
+
+button:hover{
+    background: linear-gradient(#762638, #9a3646, #d4535d) ;
+    transition: 0.5s ease-in-out;
+}
+
+button a{
+    color: #aaabb5 ;
+
+    text-decoration: none; 
+}

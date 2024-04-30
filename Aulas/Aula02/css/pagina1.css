@@ -1,35 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+
 body{
-    background: linear-gradient(#08afff,#08e8ff,#0ffff8,#46fff8,#f7fcf3) ;
+    background-image: url("../img/pagina1/background.gif");
+    background-size: cover;
 }
 
 
 h1{
-    color: #ffc845;
+    color: #0894ff;
     text-align:center;
  
     font-family: "Jersey 15", sans-serif;
     font-size: 70px;
 }
-img{
-    width: 800px;
-    height: 500px;
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-    border-radius: 10%;
-}
 
 h2{
+    color: #0ffff8;
+    
     text-align: center;
 }
 
 p{
-    text-align: center;
-}   
+    width: 550px;
+    height: 190px;
+    
+    font-family: "Teko", sans-serif;
+    font-size: 22px;
+    color: #009dff;
+
+    margin-left: auto;
+    margin-right: auto;
+} 
 
 button{
     display: block;
@@ -41,19 +46,22 @@ button{
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    background: linear-gradient(#e2762f,#ec865e,#e9782c, #f3a135, #f08344);
 
+    transition:  background .5s ease-in-out;
 
-    background: linear-gradient(#ff9422,#ffc845,#fff776);
-
-    transition: 0.10s ease-in-out;
+    
+    
 }
 
 button:hover {
     background: linear-gradient(#762638, #9a3646, #d4535d) ;
+
+    transition: background .5s ease-in-out;
 }
 
 button a {
-    color: #0e633e;
+    color: #05f18b;
     text-decoration: none;
 }
 
