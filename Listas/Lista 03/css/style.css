@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sedan+SC&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sedan+SC&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    background:linear-gradient(#00000e, #132a52,  #174275, #002948);
+
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    color: #30fdcb ;
+
+    font-family: "Ubuntu Sans Mono";
+}
+
+h4{
+    font-family: "Raleway";
+}
+
+#menu{
+    text-align: center;
+}
+
+.menu-item{
+    text-decoration: none;
+    font-size: 25px;
+
+    font-family: "Sedan SC";
+
+    margin-left: 30px;
+    margin-right: 30px;
+
+    color: #fff;
+
+    transition: .8s ease-in-out;
+}
+
+.menu-item:hover{
+    font-size: 27px;
+    color: #20dad8;
+}
+
+#produtos {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    
+    gap: 80px;
+}
+
+#produtos .descricao-produto{
+
+    font-family: "Nunito Sans";
+
+
+    
+}
+
+.produto, .produto3{
+    margin-top: 50px;
+
+    border: 3px solid black;
+    padding: 30px;
+
+    background: linear-gradient(#989ea8, #6a6e76 );
+
+    transition: .5s ease-in-out;
+}
+
+
+.produto img{
+    border: 3px solid black;
+
+}
+
+.produto3 img{
+    width: 250px;
+    height: 184px;  
+    
+    border: 3px solid black;
+}
+
+.btn .btn-detalhes{
+
+    background: linear-gradient(#1fcdca, #00bbcc, #0085b2);
+
+    transition: .5s ease-in-out;
+}
+
+.btn .btn-detalhes:hover{
+    background: linear-gradient(#67000d, #962000);
+}
+
+.btn .btn-compras{
+
+    background: linear-gradient(#0085b2, #005e95);
+
+    transition: .5s ease-in-out;
+}
+.btn .btn-compras:hover{
+
+    background: linear-gradient(#67000d, #962000);
+}
